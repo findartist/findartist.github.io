@@ -10,3 +10,5 @@ which will provide services for doing business related actions and it will be mo
 3. UI created by VS basic template and has very simple design.
 
 4. During the Generating 50000 records in Database we can show loading or progress on UI using AJAX.
+
+DB Script is attached
