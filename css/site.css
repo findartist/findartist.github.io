@@ -1,0 +1,379 @@
+*, *:before, *:after{
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html, body {
+	height: 100%;
+    background: #282425;
+}
+
+img{
+    display: inline-block;
+    max-width: 100%;
+    margin: 0 auto;
+}
+a{
+	color: inherit;
+    border: 0;
+    outline: 0;
+    /*color: blue;*/
+    text-decoration: none;
+}
+h1 a{color: inherit;}
+h2 a{color: inherit;}
+h3 a{color: inherit;}
+h4 a{color: inherit;}
+h5 a{color: inherit;}
+h6 a{color: inherit;}
+
+iframe{
+    display: block;
+    width: 100%;
+}
+header{
+    font-size: 17px;
+    background-color: #e78518;
+    overflow: hidden;
+}
+.header-top{
+    color: #933337;
+    overflow: hidden;
+    /*margin: 25px auto;*/
+    max-width: 1200px;
+}
+.bg-center{
+	display: flex;
+    flex-direction: row;
+    padding-top: 109px;
+    align-items: center;
+    justify-content: center;
+}
+.bg-center > img:nth-child(1) {
+	height: 350px
+}
+.bg-center > img:nth-child(2) {
+	height: 400px
+}
+.logo{
+    float: left;
+    padding: 15px;
+}
+.logo-icon{
+	width: 170px;
+}
+.right-corner{
+    float: right;
+}
+.right-corner a{
+    -webkit-transition-duration: 700ms;
+    -moz-transition-duration: 700ms;
+    -o-transition-duration: 700ms;
+    transition-duration: 700ms; 
+}
+
+.lang, .sign-in, .search{
+	float: right;
+    margin: 23px 0px 25px 23px;
+    color: black;
+}
+
+.lang:hover {
+
+}
+
+.search input{
+    background-image: url(../images/loop.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    border: none;
+    border-bottom: black solid 1px;
+    background-color: #e78518;
+}
+.menu{
+    overflow: hidden;
+    background-color: black;
+    color: #e78518;
+}
+
+.menu-part{
+    max-width: 1200px;
+    margin: 15px auto;
+}
+.menu-part ul li{
+    clear: both;
+    display: inline;
+    padding-right: 25px;
+}
+.slogan {
+	text-align: center;
+}
+.slogan img {
+	/*width: 300px;*/
+}
+.menu a{
+	font-size: 20px;
+    -webkit-transition-duration: 700ms;
+    -moz-transition-duration: 700ms;
+    -o-transition-duration: 700ms;
+    transition-duration: 700ms; 
+    text-transform: uppercase;
+
+}
+.all-books > p {
+	font-size: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 70px 0 50px;
+    color: #933337;
+}
+.menu a:hover, .active{
+    color: #933337;
+}
+
+.menu-part ul .active-menu{
+    float: right;
+    padding-right: 0;
+    color: #933337;
+}
+#content{
+    overflow: hidden;
+    background-color: rgba(40, 36, 37, 1);
+}
+.all-books{
+    overflow: hidden;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 50px;
+
+}
+
+.product-container {
+    float: left;
+    width: 25%;
+    padding: 0 15px;
+    margin-bottom: 80px;
+}
+a.book {
+    position: relative;
+    float: left;
+}
+
+a.book > img {
+	height: 380px;
+    object-fit: cover;
+    width: 100%
+}
+
+.book-title{
+    width: 100%;
+    bottom: -26px;
+    position: absolute;
+    text-align: center;
+    background-color: #e78518;
+    color: #933337;
+    padding: 5px;
+    font-size: 120%;
+}
+.pager{
+    margin: 15px auto;
+    max-width: 1200px;
+}
+.pager ul{
+    font-size: 17px;
+    text-align: center;
+    padding: 16px;
+
+}
+.pager ul li{
+    color: rgba(252, 176, 64, 0.9);
+    display: inline;
+}
+li.current-page{
+    background-color: #933337;
+    margin: 5px;
+    padding: 14px 15px 14px 18px;
+    border-radius: 25px;
+    color: #e78518;
+
+}
+.pager ul li a{
+    margin: 5px;
+    padding: 12px 18px;
+    border-radius: 25px;
+    border: solid 3px #282425;
+    color: rgba(252, 176, 64, 0.5);
+    -webkit-transition-duration: 700ms;
+    -moz-transition-duration: 700ms;
+    -o-transition-duration: 700ms;
+    transition-duration: 700ms; 
+}
+
+.recommend{
+    clear: both;
+    margin: 40px auto;
+    max-width: 1200px;
+}
+.recommend p{
+    text-align: center;
+    font-size: 19px;
+    letter-spacing: 1px;
+}
+footer{
+    text-align: center;
+    padding: 25px;
+    clear: both;
+    color: #933337;
+    background-color: #e78518;
+}
+footer ul{
+    padding-bottom: 25px !important;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+footer ul li{
+    display: inline;
+    padding: 0 3%;
+}
+.copyright{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.copyright hr{
+    border-color: rgba(14, 118, 188, 0.2);
+}
+.copyright p{
+    padding: 10px 0;
+}
+
+/*second page*/
+.open-book{
+    margin: 0 auto;
+    overflow: hidden;
+    width: 80%;
+}
+
+.open-book .way-to-product p, .open-book .way-to-product a{
+    font-size: 18px;
+    padding-right: 10px;
+    color: #933337;
+    display: inline;
+}
+.way-to-product{
+    margin: 4% 0;
+}
+.book-cover1{
+    margin: 0 auto;
+    /*display: inline-block;*/
+    width: 40%;
+    float: left;
+
+    
+}
+
+.book-cover1 img {
+	    width: 100%;
+    height: 450px;
+    object-fit: cover;
+}
+.product-info{
+    margin: 0 auto;
+    width: 58%;
+    /*display: inline-block;*/
+    float: right;
+}
+.product-info p{
+    padding-bottom: 10px;
+    font-size: 17px;
+}
+.type {
+    color: #e78518;
+    padding-right: 5%;
+    float: left;
+    line-height: 25px;
+}
+p.type-name {
+    text-align: left;
+    /*color: #0e76bc;*/
+    color: #933337;
+
+}
+.buy-part{
+    clear: both;
+    margin-top: 70px;
+}
+
+.buy a, .back a{
+    background-color: rgba(14, 118, 188, 0.2);
+
+}
+
+/*responsive design*/
+@media (min-width: 401px) and (max-width: 798px) {
+	
+    .product-container{
+        width: 50%;
+        padding: 7%;
+        margin-bottom: 10px;
+    }
+    .menu-part ul li {
+        padding-right: 19px;
+        font-size: 15px;
+    }
+    .all-books {
+        margin-top: 0px;
+    }
+    .menu-part ul{
+        float: right;
+
+    }
+    /*.menu-part, .menu-part ul{
+        text-align: right;
+    }
+    .menu-part ul li{
+        display: block;
+    }
+    .menu-part{
+        position: relative;
+    }
+    .menu-part ul{
+        right: 0;
+        top: 0;
+        position: absolute;
+        visibility: hidden;
+        display: inline-block;
+    }
+    .menu-part ul li {
+        display: block;
+        padding: 3px;
+    }
+    .active-menu{
+        display: none;
+    }
+    .menu-part ul li .first:before {
+        content: "";
+        visibility: visible;
+        border: 1px solid blue;
+    }
+    .menu-part ul:hover{
+        display: block;
+        visibility: visible;
+    }*/
+
+}
+
+@media (max-width: 400px){
+    .product-container {
+        width: 100%;
+        padding: 10%;
+        margin-bottom: 10px;
+    }
+    .all-books {
+        margin-top: 0px;
+    }
+}
+@media (max-width: 1200px){
+    footer ul, .header-top, .menu-part, .pager, .recommend, .all-books{
+        padding: 0 10px;
+    }
+}
